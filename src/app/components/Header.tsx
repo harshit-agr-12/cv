@@ -55,7 +55,7 @@ function SocialButton({
   label,
 }: SocialButtonProps) {
   const IconComponent = ICON_MAP[iconType];
-  
+
   return (
     <Button className="size-8" variant="outline" size="icon" asChild={true}>
       <a
@@ -158,13 +158,26 @@ function PrintContact({
         </>
       )}
       {contact.tel && (
-        <a
-          className="underline hover:text-foreground/70"
-          href={`tel:${contact.tel}`}
-        >
-          {contact.tel}
-        </a>
+        <>
+          <a
+            className="underline hover:text-foreground/70"
+            href={`tel:${contact.tel}`}
+          >
+            {contact.tel}
+          </a>
+          <span aria-hidden="true">/</span>
+        </>
       )}
+      {contact.social && (contact.social.map((social) =>
+        <><a
+          className="underline hover:text-foreground/70"
+          href={social.url}
+          key={social.name}
+          aria-label={social.name}
+          target="_blank"
+        >{social.name}</a><span aria-hidden="true">/</span></>
+      ))
+      }
     </div>
   );
 }

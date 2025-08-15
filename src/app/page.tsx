@@ -10,7 +10,7 @@ import { Header } from "./components/Header";
 import { Projects } from "./components/Projects";
 import { Skills } from "./components/Skills";
 import { Summary } from "./components/Summary";
-import { WorkExperience } from "./components/WorkExperience";
+
 
 export const metadata: Metadata = {
   title: `${RESUME_DATA.name} - Resume`,
@@ -72,7 +72,7 @@ export default function ResumePage() {
         }}
       />
       <main
-        className="container relative mx-auto scroll-my-12 overflow-auto p-4 print:p-11 md:p-16"
+        className="container relative mx-auto scroll-my-12 overflow-auto p-4 print:p-11 md:p-16 dark:bg-gray-950"
         id="main-content"
       >
         <div className="sr-only">
@@ -80,7 +80,7 @@ export default function ResumePage() {
         </div>
 
         <section
-          className="mx-auto w-full max-w-2xl space-y-8 bg-white print:space-y-4"
+          className="mx-auto w-full max-w-2xl space-y-8 bg-white print:space-y-4 dark:bg-gray-950"
           aria-label="Resume Content"
         >
           <SectionErrorBoundary sectionName="Header">
@@ -96,11 +96,11 @@ export default function ResumePage() {
               </Suspense>
             </SectionErrorBoundary>
 
-            <SectionErrorBoundary sectionName="Work Experience">
+            {/* <SectionErrorBoundary sectionName="Work Experience">
               <Suspense fallback={<SectionSkeleton lines={6} />}>
                 <WorkExperience work={RESUME_DATA.work} />
               </Suspense>
-            </SectionErrorBoundary>
+            </SectionErrorBoundary> */}
 
             <SectionErrorBoundary sectionName="Education">
               <Suspense fallback={<SectionSkeleton lines={3} />}>

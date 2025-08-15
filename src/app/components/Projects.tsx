@@ -34,7 +34,7 @@ function ProjectLink({
         href={link}
         target="_blank"
         rel="noopener noreferrer"
-        className="inline-flex items-center gap-1 hover:underline"
+        className="inline-flex items-center gap-1 underline"
         aria-label={`${title} project (opens in new tab)`}
       >
         {title}

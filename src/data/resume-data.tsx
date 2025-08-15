@@ -1,236 +1,105 @@
 import type { ResumeData } from "@/lib/types";
 
 export const RESUME_DATA: ResumeData = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Harshit Agrawal",
+  initials: "HA",
+  location: "Bhopal Madhya Pradesh",
+  locationLink: "https://maps.app.goo.gl/XW3sqTa8LkNwribf9",
   about: "Full Stack Engineer dedicated to building high-quality products.",
   summary: (
     <>
-      Full Stack Engineer specializing in high-performance React applications,
-      scalable Node.js services, and real-time collaboration systems.
-      Experienced in technical architecture design and remote team leadership.
+      Aspiring full-stack developer with practical experience in building dynamic web applications using the MERN
+stack and TypeScript. Eager to contribute to impactful projects, collaborate with experienced teams, and grow
+in a fast-paced, performance-driven development environment.
     </>
   ),
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+  avatarUrl: "https://avatars.githubusercontent.com/u/151599022",
+  personalWebsiteUrl: "",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "harshitagrawal1204@gmail.com",
+    tel: "+91 6260498435",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/harshit-agr-12",
         icon: "github",
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/harshit-agrawal-831032256/",
         icon: "linkedin",
       },
       {
-        name: "X",
-        url: "https://x.com/BartoszJarocki",
+        name: "Twitter",
+        url: "https://x.com/HarshitAgr1204",
         icon: "x",
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Oriental Institute of Science and Technoloty",
+      degree: "Bachelor's Degree in Computer science and engineering",
+      start: "2022",
+      end: "2026",
     },
   ],
-  work: [
-    {
-      company: "Motion",
-      link: "https://motionapp.com/",
-      badges: ["Remote", "AI", "React", "Next.js", "TypeScript", "AdonisJS"],
-      title: "Senior Software Engineer",
-      start: "2025",
-      end: null,
-      description: (
-        <>
-          Working on internal AI agents platform allowing marketing specialists
-          to create AI workflows.
-        </>
-      ),
-    },
-    {
-      company: "Film.io",
-      link: "https://film.io",
-      badges: ["Remote", "React", "Next.js", "TypeScript", "Node.js"],
-      title: "Software Architect",
-      start: "2024",
-      end: "2025",
-      description: (
-        <>
-          Leading technical architecture of a blockchain-based film funding
-          platform.
-          <ul className="list-inside list-disc">
-            <li>
-              Architecting migration from CRA to Next.js for improved
-              performance, SEO, and DX
-            </li>
-            <li>
-              Established release process enabling faster deployments and
-              reliable rollbacks
-            </li>
-            <li>
-              Implementing system-wide monitoring and security improvements
-            </li>
-          </ul>
-        </>
-      ),
-    },
-    {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: [
-        "Remote",
-        "React",
-        "TypeScript",
-        "Node.js",
-        "GraphQL",
-        "Tailwind CSS",
-      ],
-      title: "Senior Full Stack Developer",
-      start: "2021",
-      end: "2024",
-      description: (
-        <>
-          Senior developer and squad leader for an enterprise agile meeting
-          platform.
-          <ul className="list-inside list-disc">
-            <li>
-              Built design system with Tailwind CSS, improving development speed
-              and time to market
-            </li>
-            <li>
-              Implemented engineering practices: PR automation, code review
-              guidelines, and workflows
-            </li>
-            <li>
-              Open source contributions to Relay DevTools and React i18n tooling
-            </li>
-          </ul>
-        </>
-      ),
-    },
-    {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote", "React", "TypeScript", "Node.js", "Android", "Kotlin"],
-      title: "Lead Android Developer → Full Stack Developer",
-      start: "2015",
-      end: "2021",
-      description: (
-        <>
-          Successfully transitioned from mobile to full-stack development while
-          leading distributed teams.
-          <ul className="list-inside list-disc">
-            <li>
-              Led frontend team at Evercast, building real-time platform
-              supporting 30+ users per room with HD streaming and collaboration
-              tools
-            </li>
-            <li>
-              Developed offline-first Android app for DKMS, improving donor
-              registration process
-            </li>
-            <li>
-              Led development teams across multiple successful client projects
-            </li>
-          </ul>
-        </>
-      ),
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: ["On Site", "Android", "Java", "Kotlin"],
-      title: "Android Developer → Lead Android Developer",
-      start: "2012",
-      end: "2015",
-      description: (
-        <>
-          First Android developer, grew and led a team of 15+ engineers while
-          establishing engineering culture.
-          <ul className="list-inside list-disc">
-            <li>
-              Developed apps for major Polish companies including LOT, Polskie
-              Radio, and Agora
-            </li>
-            <li>Built and mentored high-performing mobile development team</li>
-          </ul>
-        </>
-      ),
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: ["On Site", "C/C++", "LTE", "Agile"],
-      title: "C/C++ Developer",
-      start: "2010",
-      end: "2012",
-      description:
-        "Developed software for LTE base stations at enterprise scale, gaining strong fundamentals in software architecture, testing practices, and cross-team collaboration.",
-    },
+  work: [ 
+    // {
+    //   company: "Motion",
+    //   link: "https://motionapp.com/",
+    //   badges: ["Remote", "AI", "React", "Next.js", "TypeScript", "AdonisJS"],
+    //   title: "Senior Software Engineer",
+    //   start: "2025",
+    //   end: null,
+    //   description: (
+    //     <>
+    //       Working on internal AI agents platform allowing marketing specialists
+    //       to create AI workflows.
+    //     </>
+    //   ),
+    // }
   ],
   skills: [
-    "React/Next.js/Remix",
-    "TypeScript",
-    "Tailwind CSS",
-    "Design Systems",
-    "WebRTC",
-    "WebSockets",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "System Architecture",
-    "Remote Team Leadership",
+    "C","C++","TypeScript","JavaScript","SQL","Next.js","React" , "Tailwind" , "Node.js","RESTfull APIs" , "Express.js" , "PostgreSQL" , "MongoDB","Postman" , "Docker" , "Git", "GitHub"
   ],
   projects: [
     {
-      title: "Monito",
-      techStack: ["TypeScript", "Next.js", "Browser Extension", "PostgreSQL"],
+      title: "Brainly",
+      techStack: ["TypeScript", "React", "Nodejs", "MongoDB" , "RAG" , "Vector Databases" , "pinecone" , "VectorSearch" , "LangChain"],
       description:
-        "Browser extension for debugging web applications. Includes taking screenshots, screen recording, E2E tests generation and generating bug reports",
+        "Developed a full-stack Second Brain app to store and semantically retrieve personal knowledge from sources like YouTube, Twitter, Medium, and Notion.",
       link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
+        label: "brainly.app",
+        href: "https://secondbrain1234.vercel.app/",
       },
     },
     {
-      title: "Consultly",
+      title: "Eco Scope",
       techStack: [
-        "TypeScript",
-        "Next.js",
+        "Node.js",
+        "Express.js",
+        "Javascript",
+        "MongoDB",
         "Vite",
-        "GraphQL",
-        "WebRTC",
-        "Tailwind CSS",
-        "PostgreSQL",
-        "Redis",
+        "React",
+        "Machine Learning",
       ],
       description:
-        "Platform for online consultations with real-time video meetings and scheduling",
+        "Developed a web platform enabling users to trace pollution data in their city and raise awareness through blogs. Integrated a machine learning waste classification model and began work on an AR-based pollution visualizer",
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "Eco Scope",
+        href: "https://nagpur-hackathon-project-ugc5.vercel.app/",
       },
     },
     {
-      title: "Minimalist CV",
-      techStack: ["TypeScript", "Next.js", "Tailwind CSS"],
+      title: "Bloogify",
+      techStack: ["javascript", "Nodejs", "mongoose", "MongoDB" ,"Jwt token" ,"multer"],
       description:
-        "An open source minimalist, print friendly CV template with a focus on readability and clean design. >9k stars on GitHub",
+        "Developed a full-stack blog website where users can create, edit, and comment on posts, with secure user authentication.", 
       link: {
-        label: "Minimalist CV",
-        href: "https://github.com/BartoszJarocki/cv",
+        label: "Shopping App",
+        href: "https://github.com/harshit-agr-12/bloggify",
       },
     },
   ],
