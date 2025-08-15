@@ -20,12 +20,13 @@ interface Props {
 
 export const CommandMenu = ({ links }: Props) => {
   const [open, setOpen] = React.useState(false);
+  const {theme , setTheme} = useTheme();
   const isMac: boolean =
     typeof window !== "undefined"
       ? window.navigator.userAgent.indexOf("Mac") > -1
       : false;
 
-  const {theme , setTheme} = useTheme();
+
   React.useEffect(() => {
     const down = (e: KeyboardEvent) => {
       if (e.key === "j" && (e.metaKey || e.ctrlKey)) {
@@ -71,6 +72,7 @@ export const CommandMenu = ({ links }: Props) => {
             <CommandItem
               onSelect={(prev) => {
                 theme === "dark" ? setTheme("light") : setTheme("dark");
+                setOpen(false)
               }}
             >
               <span>Toggle Theme</span>
